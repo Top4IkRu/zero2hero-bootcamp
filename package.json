@@ -2,18 +2,21 @@
   "name": "bnb-faucet-backend",
   "version": "0.0.0",
   "private": true,
-  "scripts": {
-    "start": "node ./bin/www"
-  },
   "dependencies": {
+    "aws-sdk": "^2.1333.0",
+    "axios": "^1.3.4",
     "body-parser": "^1.20.2",
     "cookie-parser": "~1.4.4",
     "cors": "^2.8.5",
     "debug": "^2.6.9",
     "ethers": "^6.1.0",
-    "express": "^4.16.1",
+    "express": "^4.18.2",
     "http-errors": "^1.6.3",
     "morgan": "^1.9.1",
-    "pug": "2.0.0-beta11"
+    "pug": "2.0.0-beta11",
+    "serverless-http": "^3.2.0"
+  },
+  "devDependencies": {
+    "serverless-iam-roles-per-function": "^3.2.0"
   }
 }

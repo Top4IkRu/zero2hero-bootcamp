@@ -1,0 +1,27 @@
+service: bnb-faucet-backend
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+  stage: dev
+  region: us-east-1
+  iamRoleStatements:
+    - Effect: Allow
+      Action:
+        - dynamodb:DescribeTable
+        - dynamodb:Query
+        - dynamodb:Scan
+        - dynamodb:GetItem
+        - dynamodb:PutItem
+        - dynamodb:UpdateItem
+        - dynamodb:DeleteItem
+      Resource: "arn:aws:dynamodb:${self:provider.region}:*:table/BnbFaucet"
+
+functions:
+  app:
+    handler: app.server
+    events:
+      - http:
+          path: /{proxy+}
+          method: ANY
+          cors: true
