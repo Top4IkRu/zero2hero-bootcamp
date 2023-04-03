@@ -1,0 +1,12 @@
+{
+  "name": "Students of Zero2Hero Bootcamp CIS",
+  "description": "Welcome to our exciting NFT project, exclusively created for Boot Camp participants! Our collection boasts a unique Zero2Hero 0xC0DE token that can be minted through staking your NFTs.",
+  "image": "ipfs://QmagGPnjtX44CP38u1377C723idhn8BTtSkivfChPz1S5d/9.png",
+  "background_color": "",
+  "attributes": [
+    { "trait_type": "gender", "value": "male" },
+    { "trait_type": "hairstyle", "value": "punk style" },
+    { "trait_type": "headdress", "value": "none" },
+    { "trait_type": "attribute", "value": "moustache" }
+  ]
+}
