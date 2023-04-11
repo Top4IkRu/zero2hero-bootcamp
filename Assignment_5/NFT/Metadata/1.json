@@ -1,0 +1,7 @@
+{
+  "name": "Mini channel",
+  "description": "Blogger or channel with a small number of subscribers. Often they are experts in their narrow niche or celebrities at the regional level.",
+  "image": "ipfs://QmTQFyYyYiNQ82YpgMWDbEMqEa6U5ncBDVbQ4rBmXLrp67/1.png",
+  "background_color": "",
+  "attributes": [{ "trait_type": "rareness", "value": "one in hundred" }]
+}
