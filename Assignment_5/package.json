@@ -12,12 +12,14 @@
     "@nomicfoundation/hardhat-toolbox": "^2.0.0",
     "@openzeppelin/contracts": "^4.8.2",
     "hardhat": "^2.13.0",
+    "hardhat-contract-sizer": "^2.8.0",
     "hardhat-gas-reporter": "^1.0.9",
     "solidity-coverage": "^0.8.2"
   },
   "dependencies": {
     "@pancakeswap/pancake-swap-lib": "^0.0.4",
     "@uniswap/v2-core": "^1.0.1",
+    "@uniswap/v2-periphery": "^1.1.0-beta.0",
     "@uniswap/v3-core": "^1.0.1",
     "dotenv": "^16.0.3"
   }
